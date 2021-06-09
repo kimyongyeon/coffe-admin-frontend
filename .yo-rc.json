@@ -1,0 +1,56 @@
+{
+	"generator-jhipster": {
+		"authenticationType": "session",
+		"cacheProvider": "caffeine",
+		"clientFramework": "svelte",
+		"serverPort": "8080",
+		"serviceDiscoveryType": false,
+		"skipUserManagement": false,
+		"withAdminUi": true,
+		"baseName": "SampleBlogApp",
+		"buildTool": "maven",
+		"databaseType": "sql",
+		"devDatabaseType": "h2Disk",
+		"enableHibernateCache": true,
+		"enableSwaggerCodegen": false,
+		"enableTranslation": false,
+		"jhiPrefix": "jhi",
+		"languages": ["en"],
+		"messageBroker": false,
+		"prodDatabaseType": "postgresql",
+		"searchEngine": false,
+		"skipClient": false,
+		"testFrameworks": [],
+		"websocket": false,
+		"applicationType": "monolith",
+		"packageName": "tech.jhipster.samples.blog",
+		"packageFolder": "tech/jhipster/samples/blog",
+		"jhipsterVersion": "7.0.1",
+		"skipServer": false,
+		"clientPackageManager": "npm",
+		"dtoSuffix": "DTO",
+		"entitySuffix": "",
+		"reactive": false,
+		"clientTheme": "none",
+		"clientThemeVariant": "",
+		"entities": [],
+		"blueprints": [
+			{
+				"name": "generator-jhipster-svelte",
+				"version": "0.4.0"
+			}
+		],
+		"otherModules": [
+			{
+				"name": "generator-jhipster-svelte",
+				"version": "0.4.0"
+			}
+		],
+		"skipCheckLengthOfIdentifier": false,
+		"skipFakeData": false,
+		"pages": [],
+		"creationTimestamp": 1623204920168,
+		"rememberMeKey": "e3d84827f2dc2bcd3f86a1d1b5754314c6198a48b60aa3878e530b5024ce940a16b69d26b5f95b56c1b609b38a68dcb915a6",
+		"nativeLanguage": "en"
+	}
+}
